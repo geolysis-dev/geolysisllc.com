@@ -74,7 +74,7 @@ export default function Header() {
                       <Typography
                         sx={{
                           textAlign: "center",
-                          textTransform: "capitalize",
+                          textTransform: "lowercase",
                         }}
                       >
                         {page}
@@ -115,7 +115,7 @@ export default function Header() {
                       my: 2,
                       color: "white",
                       display: "block",
-                      textTransform: "capitalize",
+                      textTransform: "lowercase",
                     }}
                   >
                     {page}
