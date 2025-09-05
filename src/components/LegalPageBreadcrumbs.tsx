@@ -50,7 +50,9 @@ export default function LegalPageBreadcrumbs({
         anchorEl={anchorEl}
         open={open}
         onClose={() => setAnchorEl(null)}
-        slotProps={{ list: { "aria-labelledby": "privacy-menu" } }}
+        slotProps={{
+          list: { "aria-labelledby": "privacy-menu", "aria-hidden": false },
+        }}
       >
         <MenuItem onClick={() => handleMenuItemClick(PATHS.LEGAL.TERMS_OF_USE)}>
           terms
