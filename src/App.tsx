@@ -43,7 +43,7 @@ interface Props {
   children?: React.ReactElement<unknown>;
 }
 
-function ScrollTop({ children }: Props) {
+function ScrollToTop({ children }: Props) {
   const trigger = useScrollTrigger({
     disableHysteresis: true,
     threshold: 100,
@@ -82,11 +82,11 @@ function App() {
         <Container maxWidth="md">
           <RouterProvider router={router} />
         </Container>
-        <ScrollTop>
+        <ScrollToTop>
           <Fab size="small" aria-label="scroll back to top">
             <KeyboardArrowUpIcon />
           </Fab>
-        </ScrollTop>
+        </ScrollToTop>
       </ThemeProvider>
     </>
   );
