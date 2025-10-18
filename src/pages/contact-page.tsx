@@ -47,6 +47,14 @@ export default function ContactPage() {
             support@geolysisllc.com
           </Link>
 
+          <Link
+            href="mailto:support@geolysis.io"
+            rel="noopener noreferrer"
+            underline="always"
+          >
+            support@geolysis.io
+          </Link>
+
           <Typography variant="body2" color="text.secondary">
             We'll get back to you within 24 hours.
           </Typography>
