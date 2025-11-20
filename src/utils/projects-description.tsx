@@ -13,8 +13,8 @@ export const PROJECTS = [
     name: "Geolysis for Excel",
     description:
       "Microsoft Excel addin that provides geotechnical functions (available) and data entry capabilities. (in development)",
-    link: "",
-    label: "In active development",
+    link: "https://appsource.microsoft.com/en-us/product/Office365/WA200009428",
+    label: "Learn More",
     icon: ExcelIcon,
   },
   {
